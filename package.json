@@ -1,0 +1,32 @@
+{
+  "name": "taskapi-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.1.2",
+    "@strapi/plugin-i18n": "4.1.2",
+    "@strapi/plugin-users-permissions": "4.1.2",
+    "@strapi/provider-email-sendgrid": "^4.1.2",
+    "@strapi/strapi": "4.1.2",
+    "lodash": "^4.17.21",
+    "sqlite3": "5.0.2"
+  },
+  "author": {
+    "name": "Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b36c6b6b-03df-4cde-93cc-a9eadb86f933"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
